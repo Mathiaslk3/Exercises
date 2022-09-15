@@ -9,6 +9,7 @@
             bool ex3 = false;
             bool ex4 = false;
             bool ex5 = false;
+            bool ex6 = false;
             #region Exercise 1 - String valuses
             while (ex1)
             {
@@ -189,6 +190,62 @@
                 }
                 Console.ReadLine();
                 Console.Clear();
+            }
+            #endregion
+
+            #region Exercise 6 - Arrays and use
+            if (ex6)
+            {
+                (string, int)[] ageName = new (string, int)[6];
+                ageName[0] = ("Casper", 22);
+                ageName[1] = ("Kasper", 24);
+                ageName[2] = ("Jonathan", 24);
+                ageName[3] = ("Alexander", 24);
+                ageName[4] = ("Mathias ", 26);
+                ageName[5] = ("Jonas", 30);
+
+                int ageSum = 0;
+
+                for (int i = 0; i < ageName.Length; i++)
+                {
+                    Console.WriteLine(ageName[i].Item1 + ": " + ageName[i].Item2);
+                    ageSum += ageName[i].Item2;
+                }
+
+                Console.WriteLine();
+                Console.WriteLine("- GENNEMSNITS ALDER -");
+                Console.WriteLine();
+                Console.WriteLine("Den gennemsnitlige alder er: " + (double) ageSum/ ageName.Length);
+
+                Console.WriteLine();
+                Console.WriteLine("- SØG ALDER -");
+                Console.WriteLine();
+                Console.Write("Søg efter en alder: ");
+                string input = Console.ReadLine();
+
+                int userSelection = int.Parse(input);
+
+                bool ageFound = false;
+                for (int i = 0; i < ageName.Length; i++)
+                {
+                    if (ageName[i].Item2 == userSelection)
+                    {
+                        ageFound = true;
+                        break;
+                    }
+                }
+                if (ageFound)
+                {
+                    Console.WriteLine("Alderen blev fundet og den er: ");
+
+                }
+                else
+                {
+                    Console.WriteLine(ageFound + " Denne alder blev ikke fundet");
+
+                }
+                Console.ReadLine();
+
             }
             #endregion
         }
