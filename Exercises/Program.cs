@@ -10,6 +10,7 @@
             bool ex4 = false;
             bool ex5 = false;
             bool ex6 = false;
+            bool ex7 = false;
             #region Exercise 1 - String valuses
             while (ex1)
             {
@@ -248,6 +249,11 @@
 
             }
             #endregion
+
+            if (ex7)
+            {
+
+            }
         }
     }
 }
