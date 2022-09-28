@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mF3uWJ5nIurmY1Z2xxrLStdwxb9aFBmM6qljy5tLBANiQMajmT02vJix59TW3bnFayOqW7TVTo8hTzJLLy71LA==",
+  "dgSpecHash": "mM1VhIqKtW2nd+lk3fS8DipP4Ch5CRiMXqGA3XBVskqeRvY3aBJ4jWVZpCuO+dHFi0ivC6SntbcknQfKgYXboQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gamin\\Desktop\\Exercises\\Exercises\\LommeregnerTest\\LommeregnerTest.csproj",
+  "projectFilePath": "C:\\Users\\gamin\\Desktop\\Exercises\\LommeregnerTest\\LommeregnerTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gamin\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\gamin\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
